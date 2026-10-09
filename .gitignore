@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Артефакты, которые генерируются заново
+lab6_dashboard/artifacts/
+catboost_info/
+**/catboost_info/
+
+# Практики по алмазам: ~140 МБ, создаётся тетрадкой practices/practice_eda_deep.ipynb
+diamonds_big.csv
+# отдельное окружение для отчёта ydata-profiling (practices/requirements-profiling.txt)
+venv_profiling/
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
