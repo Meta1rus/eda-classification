@@ -1,0 +1,14 @@
+# Пакеты, нужные только дашборду (ставятся в Docker-образ)
+numpy==2.3.5
+pandas==3.0.5
+scipy==1.17.1
+scikit-learn==1.9.1
+catboost==1.2.10
+shap==0.52.0
+explainerdashboard==0.5.8
+dash==4.4.1
+dash-bootstrap-components==2.0.4
+plotly==7.1.0
+phik==0.12.5
+waitress==3.0.2
+setuptools==80.10.2   # explainerdashboard 0.5.8 использует pkg_resources (удалён в setuptools 81)

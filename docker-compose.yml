@@ -1,0 +1,21 @@
+# Запуск одной командой из корня репозитория:
+#   docker compose up --build
+# Дашборд откроется на http://localhost:9050
+name: shoppers
+
+services:
+  dashboard:
+    build:
+      context: .
+      dockerfile: lab6_dashboard/Dockerfile
+    image: shoppers-dashboard:latest
+    container_name: shoppers-dashboard
+    ports:
+      - "9050:9050"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:9050/', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      start_period: 60s
+      retries: 3

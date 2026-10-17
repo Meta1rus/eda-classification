@@ -1,0 +1,17 @@
+# в образ попадает только то, что перечислено в COPY; остальное не отправляем в контекст сборки
+.git
+**/__pycache__
+**/.ipynb_checkpoints
+**/catboost_info
+lab6_dashboard/artifacts
+lab1_katatonia
+lab2_eda_overview
+lab3_correlations
+lab4_features
+lab5_models
+project
+*.ipynb
+*.pptx
+*.pdf
+practices
+data/diamonds_*.csv
