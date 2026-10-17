@@ -1,0 +1,24 @@
+{
+  "model": "CatBoost",
+  "params": {
+    "iterations": 500,
+    "learning_rate": 0.05,
+    "depth": 6,
+    "scale_pos_weight": 1.0
+  },
+  "params_short": "depth=6, 500 деревьев",
+  "threshold": 0.2738,
+  "oof_f1_at_threshold": 0.6831,
+  "test_roc_auc": 0.9292854558792495,
+  "test_pr_auc": 0.7439995803320434,
+  "test_f1_at_threshold": 0.6745283018867925,
+  "test_precision_at_threshold": 0.6137339055793991,
+  "test_recall_at_threshold": 0.7486910994764397,
+  "test_f1_at_05": 0.6297376093294461,
+  "confusion_matrix_at_threshold": {
+    "tn": 1904,
+    "fp": 180,
+    "fn": 96,
+    "tp": 286
+  }
+}
