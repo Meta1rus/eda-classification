@@ -1,0 +1,22 @@
+{
+  "roc_auc": 0.9292854558792495,
+  "pr_auc": 0.7439995803320434,
+  "roc_auc_wo_pv": 0.7653952829335451,
+  "pr_auc_wo_pv": 0.3553510495501845,
+  "threshold": 0.2738,
+  "tp": 286,
+  "fp": 180,
+  "fn": 96,
+  "tn": 1904,
+  "precision": 0.6137339055793991,
+  "recall": 0.7486910994764397,
+  "f1": 0.6745283018867925,
+  "shap_top": {
+    "PageValues": 1.394,
+    "Month": 0.85,
+    "BounceRates": 0.202,
+    "ExitRates": 0.187,
+    "Administrative": 0.18,
+    "TrafficType": 0.166
+  }
+}
