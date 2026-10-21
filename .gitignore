@@ -12,6 +12,9 @@ catboost_info/
 
 # Датасеты не хранятся в репозитории: их скачивает scripts/download_data.py
 data/*.csv
+# lab1: исходный файл преподавателя и построчный результат — медицинские данные, не публикуются
+lab1_katatonia/data/
+lab1_katatonia/output/katatonia_encoded.csv
 
 # Практики по алмазам: ~140 МБ, создаётся тетрадкой practices/practice_eda_deep.ipynb
 diamonds_big.csv
