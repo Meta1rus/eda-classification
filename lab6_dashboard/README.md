@@ -7,9 +7,11 @@
 
 ## Как запустить (одна команда)
 
-Нужен установленный Docker с плагином Compose (Docker Desktop или `docker-compose-plugin`). Из **корня репозитория**:
+Нужен установленный Docker с плагином Compose (Docker Desktop или `docker-compose-plugin`) и Python 3 для загрузки
+датасета. Из **корня репозитория**:
 
 ```bash
+python3 scripts/download_data.py   # датасет в образ берётся из data/, в репозитории его нет
 docker compose up --build
 ```
 

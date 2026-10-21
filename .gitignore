@@ -10,6 +10,9 @@ lab6_dashboard/artifacts/
 catboost_info/
 **/catboost_info/
 
+# Датасеты не хранятся в репозитории: их скачивает scripts/download_data.py
+data/*.csv
+
 # Практики по алмазам: ~140 МБ, создаётся тетрадкой practices/practice_eda_deep.ipynb
 diamonds_big.csv
 # отдельное окружение для отчёта ydata-profiling (practices/requirements-profiling.txt)
