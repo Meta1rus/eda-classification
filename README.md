@@ -1,5 +1,17 @@
 # Прогноз покупки по сессии интернет-магазина: EDA → CatBoost → дашборд в Docker
 
+<!-- header -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Python%203.13-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.13">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/CatBoost-FFCC00?style=flat-square" alt="CatBoost">
+  <img src="https://img.shields.io/badge/SHAP-8B5CF6?style=flat-square" alt="SHAP">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Dash-119DFF?style=flat-square&logo=plotly&logoColor=white" alt="Dash">
+</p>
+
+<p align="center"><img src="project/figures/06_shap.png" alt="SHAP: вклад признаков в прогноз покупки" width="90%"></p>
+
 Сквозной проект по CRISP-DM на открытых данных: разведочный анализ, подготовка признаков, сравнение моделей
 классификации, интерпретация через SHAP и интерактивный дашборд, который поднимается одной командой.
 
